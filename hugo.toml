@@ -1,0 +1,35 @@
+baseURL = 'https://yunusbulutt.github.io/'
+locale = 'en-us'
+title = 'Yunus Bulut'
+disableKinds = ['section', 'taxonomy', 'term', 'page', 'rss']
+
+[params]
+  description = 'Software developer.'
+  role = 'Software Developer'
+  company = 'Simpra'
+  companyUrl = 'https://simprasuite.com.tr/'
+
+[[params.links]]
+  name = 'Mail'
+  url = 'mailto:yunusbulut.dev@gmail.com'
+  color = '#e05c4b'
+
+[[params.links]]
+  name = 'LinkedIn'
+  url = 'https://linkedin.com/in/yunusbulutt'
+  color = '#2d7ab5'
+
+[[params.links]]
+  name = 'GitHub'
+  url = 'https://github.com/yunusbulutt'
+  color = '#6e5494'
+
+[[params.links]]
+  name = 'Twitter'
+  url = 'https://x.com/yunusbulutt'
+  color = '#4a9fd4'
+
+[[params.links]]
+  name = 'Instagram'
+  url = 'https://www.instagram.com/yunus.bulutt/'
+  color = '#c13584'

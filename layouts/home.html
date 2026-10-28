@@ -1,0 +1,19 @@
+{{ define "main" }}
+<header>
+  <h1>{{ site.Title }}</h1>
+  <h2>
+    {{ site.Params.role }} at
+    <a href="{{ site.Params.companyUrl }}" class="company-link" target="_blank" rel="noopener">{{ site.Params.company }}</a>
+  </h2>
+</header>
+
+<div class="prose">
+  {{ .Content }}
+</div>
+
+<nav class="links">
+  {{ range site.Params.links }}
+  <a href="{{ .url }}" style="--brand: {{ .color }}" {{ if not (hasPrefix .url "mailto:") }}target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
+  {{ end }}
+</nav>
+{{ end }}
