@@ -75,9 +75,12 @@ p {
   gap: 2rem;
 }
 
+.company-link {
+  text-decoration-color: var(--color-company);
+}
+
 .company-link:hover {
   color: var(--color-company);
-  text-decoration-color: var(--color-company);
 }
 
 .links {
