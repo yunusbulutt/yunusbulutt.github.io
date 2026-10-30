@@ -7,6 +7,17 @@
   --color-primary: #6ee7b7;
   --color-underline: #3f3f46;
   --color-company: #f59e0b;
+  color-scheme: dark;
+}
+
+:root[data-theme="light"] {
+  --color-bg: #fafafa;
+  --color-text: #3f3f46;
+  --color-mute: #a1a1aa;
+  --color-primary: #f97316;
+  --color-underline: #d4d4d8;
+  --color-company: #d97706;
+  color-scheme: light;
 }
 
 *, *::before, *::after {
@@ -97,4 +108,42 @@ p {
 .links a:hover {
   color: var(--brand, var(--color-primary));
   text-decoration-color: var(--brand, var(--color-primary));
+}
+
+.theme-toggle {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  display: grid;
+  place-items: center;
+  width: 2.25rem;
+  height: 2.25rem;
+  border: 0;
+  border-radius: 50%;
+  background: none;
+  color: var(--color-mute);
+  cursor: pointer;
+  transition: color 0.15s ease, transform 0.3s ease;
+}
+
+@media (hover: hover) {
+  .theme-toggle:hover {
+    color: var(--color-primary);
+    transform: rotate(15deg);
+  }
+}
+
+.theme-toggle svg {
+  width: 1.25rem;
+  height: 1.25rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.75;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+:root[data-theme="light"] .icon-sun,
+:root:not([data-theme="light"]) .icon-moon {
+  display: none;
 }
