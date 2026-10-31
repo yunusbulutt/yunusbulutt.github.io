@@ -4,3 +4,5 @@ document.querySelector('.theme-toggle').addEventListener('click', () => {
   root.dataset.theme = theme;
   try { localStorage.setItem('theme', theme); } catch {}
 });
+
+document.documentElement.addEventListener('click', () => {});
