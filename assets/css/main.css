@@ -20,6 +20,10 @@
   color-scheme: light;
 }
 
+html {
+  touch-action: manipulation;
+}
+
 *, *::before, *::after {
   box-sizing: border-box;
   margin: 0;
