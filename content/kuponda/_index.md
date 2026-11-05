@@ -48,4 +48,4 @@ Hayır. Kuponda bağımsız bir uygulamadır; Setcard, Flexlife, A101 ya da uygu
 
 ## İletişim
 
-Soru, hata bildirimi ya da öneri için [yunusbulut.dev@gmail.com](mailto:yunusbulut.dev@gmail.com) adresine yazabilirsin. Hata bildiriyorsan iPhone modelini, iOS sürümünü ve hatanın hangi ekranda olduğunu eklemen işimi kolaylaştırır.
+Soru, hata bildirimi ya da öneri için [yunusbulut.tr@gmail.com](mailto:yunusbulut.tr@gmail.com) adresine yazabilirsin. Hata bildiriyorsan iPhone modelini, iOS sürümünü ve hatanın hangi ekranda olduğunu eklemen işimi kolaylaştırır.

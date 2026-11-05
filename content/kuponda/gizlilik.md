@@ -60,10 +60,10 @@ Bu politika değişirse güncel hâli bu sayfada, yeni tarihle yayınlanır.
 
 ## İletişim
 
-Sorularını [yunusbulut.dev@gmail.com](mailto:yunusbulut.dev@gmail.com) adresine iletebilirsin.
+Sorularını [yunusbulut.tr@gmail.com](mailto:yunusbulut.tr@gmail.com) adresine iletebilirsin.
 
 ---
 
 ## English summary
 
-Kuponda has no servers, requires no account and collects no personal data. Coupon codes, PINs, balances and spending history are stored only on your device. If you choose to connect the optional A101 automatic balance feature, your phone number and the SMS code are sent directly to A101 to sign in, session tokens are stored in the device Keychain, and the code and PIN of your A101 coupons are sent directly to A101 to check their balance; the app does not store your phone number. Screenshots and receipt photos are processed on the device and never uploaded. The app contains no analytics, advertising or tracking. Contact: [yunusbulut.dev@gmail.com](mailto:yunusbulut.dev@gmail.com).
+Kuponda has no servers, requires no account and collects no personal data. Coupon codes, PINs, balances and spending history are stored only on your device. If you choose to connect the optional A101 automatic balance feature, your phone number and the SMS code are sent directly to A101 to sign in, session tokens are stored in the device Keychain, and the code and PIN of your A101 coupons are sent directly to A101 to check their balance; the app does not store your phone number. Screenshots and receipt photos are processed on the device and never uploaded. The app contains no analytics, advertising or tracking. Contact: [yunusbulut.tr@gmail.com](mailto:yunusbulut.tr@gmail.com).
