@@ -1,0 +1,15 @@
+<header class="doc-header">
+  {{ with .Params.eyebrow }}<p class="doc-eyebrow">{{ . }}</p>{{ end }}
+  <h1>{{ .Title }}</h1>
+  {{ with .Description }}<p class="doc-lead">{{ . }}</p>{{ end }}
+</header>
+
+<article class="doc">
+  {{ .Content }}
+</article>
+
+{{ with .Params.footerLinks }}
+<nav class="doc-footer">
+  {{ range . }}<a href="{{ .url | relURL }}">{{ .name }}</a>{{ end }}
+</nav>
+{{ end }}

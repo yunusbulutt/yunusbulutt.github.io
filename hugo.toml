@@ -1,7 +1,7 @@
 baseURL = 'https://yunusbulutt.github.io/'
 locale = 'en-us'
 title = 'Yunus Bulut'
-disableKinds = ['section', 'taxonomy', 'term', 'page', 'rss']
+disableKinds = ['taxonomy', 'term', 'rss']
 
 [params]
   description = 'Software developer.'
