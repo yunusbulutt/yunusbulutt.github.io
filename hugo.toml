@@ -11,7 +11,7 @@ disableKinds = ['taxonomy', 'term', 'rss']
 
 [[params.links]]
   name = 'Mail'
-  url = 'mailto:yunusbulut.dev@gmail.com'
+  url = 'mailto:yunusbulut.tr@gmail.com'
   color = '#e05c4b'
 
 [[params.links]]
