@@ -2,8 +2,8 @@
 title: Kuponda
 params:
   htmlLang: tr
-eyebrow: iOS Uygulaması · Destek
-description: Setcard Flexlife kuponlarında ne kadar bakiye kaldığını takip etmeni sağlayan sade bir iPhone uygulaması.
+eyebrow: iOS ve Android · Destek
+description: Setcard Flexlife kuponlarında ne kadar bakiye kaldığını takip etmeni sağlayan sade bir iPhone ve Android uygulaması.
 footerLinks:
   - name: Gizlilik Politikası
     url: /kuponda/gizlilik/
@@ -18,13 +18,13 @@ Flexlife'tan aldığın hediye kuponlarını bir kez eklersin; kalan bakiyeyi, h
 - Ekran görüntüsünden ya da elle kupon ekleme
 - Harcama girişi ve fişten tutar okuma
 - Desteklenen firmalarda otomatik bakiye güncelleme
-- İsteğe bağlı Face ID kilidi, açık ve koyu tema
+- İsteğe bağlı Face ID / ekran kilidi, açık ve koyu tema
 
 ## Sık sorulan sorular
 
 ### Kupon bilgilerim nerede saklanıyor?
 
-Yalnızca senin iPhone'unda. Kuponda'nın bir sunucusu ya da hesap sistemi yoktur; kupon kodların, PIN'lerin ve harcamaların geliştiriciye hiçbir zaman ulaşmaz. Ayrıntılar için [gizlilik politikasına](/kuponda/gizlilik/) bakabilirsin.
+Yalnızca senin telefonunda. Kuponda'nın bir sunucusu ya da hesap sistemi yoktur; kupon kodların, PIN'lerin ve harcamaların geliştiriciye hiçbir zaman ulaşmaz. Ayrıntılar için [gizlilik politikasına](/kuponda/gizlilik/) bakabilirsin.
 
 ### Otomatik bakiye nasıl çalışıyor?
 
@@ -48,4 +48,4 @@ Hayır. Kuponda bağımsız bir uygulamadır; Setcard, Flexlife, A101 ya da uygu
 
 ## İletişim
 
-Soru, hata bildirimi ya da öneri için [yunusbulut.tr@gmail.com](mailto:yunusbulut.tr@gmail.com) adresine yazabilirsin. Hata bildiriyorsan iPhone modelini, iOS sürümünü ve hatanın hangi ekranda olduğunu eklemen işimi kolaylaştırır.
+Soru, hata bildirimi ya da öneri için [yunusbulut.tr@gmail.com](mailto:yunusbulut.tr@gmail.com) adresine yazabilirsin. Hata bildiriyorsan telefon modelini, iOS ya da Android sürümünü ve hatanın hangi ekranda olduğunu eklemen işimi kolaylaştırır.
