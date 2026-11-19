@@ -1,0 +1,23 @@
+{{ with where site.Sections "Params.project" "!=" nil }}
+<section class="projects">
+  <h3 class="section-title">Projects</h3>
+  <div class="project-grid">
+    {{ range . }}
+    <a class="project-card" href="{{ .RelPermalink }}" style="--project: {{ .Params.project.color }}">
+      <div class="project-preview">
+        {{ range first 2 (.Resources.Match "screens/*") }}
+        {{ $alt := .Title }}{{ with .Process "webp" }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" loading="lazy">{{ end }}
+        {{ end }}
+      </div>
+      <div class="project-body">
+        {{ with .Resources.Get "icon.png" }}{{ with .Resize "112x webp" }}<img class="project-icon" src="{{ .RelPermalink }}" width="56" height="56" alt="">{{ end }}{{ end }}
+        <div>
+          <h4>{{ .Title }}</h4>
+          <p>{{ .Params.project.summary }}</p>
+        </div>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}

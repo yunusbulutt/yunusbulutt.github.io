@@ -16,4 +16,6 @@
   <a href="{{ .url }}" style="--brand: {{ .color }}" {{ if not (hasPrefix .url "mailto:") }}target="_blank" rel="noopener"{{ end }}>{{ .name }}</a>
   {{ end }}
 </nav>
+
+{{ partial "projects.html" . }}
 {{ end }}
