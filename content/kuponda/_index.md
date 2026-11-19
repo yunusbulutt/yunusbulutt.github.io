@@ -4,6 +4,17 @@ params:
   htmlLang: tr
 eyebrow: iOS ve Android · Destek
 description: Setcard Flexlife kuponlarında ne kadar bakiye kaldığını takip etmeni sağlayan sade bir iPhone ve Android uygulaması.
+resources:
+  - src: screens/1-list.png
+    title: Ana ekran
+  - src: screens/2-detail.png
+    title: Kupon detayı
+  - src: screens/3-add.png
+    title: Kupon ekleme
+  - src: screens/4-spend.png
+    title: Harcama girişi
+  - src: screens/5-list-dark.png
+    title: Koyu tema
 footerLinks:
   - name: Gizlilik Politikası
     url: /kuponda/gizlilik/
