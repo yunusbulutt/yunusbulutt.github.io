@@ -7,6 +7,8 @@
   --color-primary: #6ee7b7;
   --color-underline: #3f3f46;
   --color-company: #f59e0b;
+  --color-surface: #18181b;
+  --color-border: #27272a;
   color-scheme: dark;
 }
 
@@ -17,6 +19,8 @@
   --color-primary: #f97316;
   --color-underline: #d4d4d8;
   --color-company: #d97706;
+  --color-surface: #ffffff;
+  --color-border: #e4e4e7;
   color-scheme: light;
 }
 
