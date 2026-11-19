@@ -1,8 +1,18 @@
 <header class="doc-header">
+  {{ with .Resources.Get "icon.png" }}{{ with .Resize "144x webp" }}<img class="doc-icon" src="{{ .RelPermalink }}" width="72" height="72" alt="">{{ end }}{{ end }}
   {{ with .Params.eyebrow }}<p class="doc-eyebrow">{{ . }}</p>{{ end }}
   <h1>{{ .Title }}</h1>
   {{ with .Description }}<p class="doc-lead">{{ . }}</p>{{ end }}
+  {{ with .Params.project.appStore }}<a class="store-button" href="{{ . }}" target="_blank" rel="noopener">App Store'dan indir</a>{{ end }}
 </header>
+
+{{ with .Resources.Match "screens/*" }}
+<div class="gallery">
+  {{ range . }}
+  {{ $alt := .Title }}{{ with .Process "webp" }}<img src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="{{ $alt }}" loading="lazy">{{ end }}
+  {{ end }}
+</div>
+{{ end }}
 
 <article class="doc">
   {{ .Content }}

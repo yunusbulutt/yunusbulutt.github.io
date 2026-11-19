@@ -232,3 +232,63 @@ p {
 .doc h3 + * {
   margin-top: -0.5rem;
 }
+
+.doc-icon {
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 22%;
+}
+
+.store-button {
+  align-self: flex-start;
+  margin-top: 0.5rem;
+  padding: 0.625rem 1.25rem;
+  border-radius: 999px;
+  background: var(--color-text);
+  color: var(--color-bg);
+  font-size: 1rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.15s ease;
+}
+
+.store-button:hover {
+  color: var(--color-bg);
+  opacity: 0.85;
+}
+
+.gallery {
+  display: flex;
+  gap: 1rem;
+  margin: 0 -1.5rem;
+  padding: 0 1.5rem 0.5rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 0 1.5rem;
+  scrollbar-width: none;
+}
+
+.gallery::-webkit-scrollbar {
+  display: none;
+}
+
+.gallery img {
+  flex: 0 0 min(42vw, 10.5rem);
+  width: min(42vw, 10.5rem);
+  height: auto;
+  border: 1px solid var(--color-border);
+  border-radius: 1rem;
+  scroll-snap-align: start;
+}
+
+@media (min-width: 48rem) {
+  .gallery {
+    margin: 0;
+    padding: 0;
+  }
+
+  .gallery img {
+    flex: 1 1 0;
+    width: 0;
+  }
+}
