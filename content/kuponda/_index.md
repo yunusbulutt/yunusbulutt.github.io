@@ -2,7 +2,7 @@
 title: Kuponda
 params:
   htmlLang: tr
-eyebrow: iOS ve Android · Destek
+eyebrow: iOS ve Android
 description: Setcard Flexlife kuponlarında ne kadar bakiye kaldığını takip etmeni sağlayan sade bir iPhone ve Android uygulaması.
 project:
   summary: Track what's left on your gift coupons, all on your phone.
