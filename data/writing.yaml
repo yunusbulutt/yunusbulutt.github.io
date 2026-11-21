@@ -1,0 +1,15 @@
+- title: Performance Optimization for Rails Applications
+  url: https://blog.simprasuite.com/performance-optimization-for-rails-applications-a30fadfd554f
+  date: 2024-10-08
+  readingTime: 11
+  cover: images/writing/rails-performance.jpg
+- title: Understanding and Solving N+1 Queries in Ruby on Rails
+  url: https://blog.simprasuite.com/understanding-and-solving-n-1-queries-in-ruby-on-rails-98a0b25160b
+  date: 2023-04-25
+  readingTime: 5
+  cover: images/writing/rails-n-plus-one.jpg
+- title: How to use Polymorphic Associations in Ruby on Rails?
+  url: https://blog.simprasuite.com/how-to-use-polymorphic-associations-in-ruby-on-rails-d234a066f3cb
+  date: 2022-12-16
+  readingTime: 3
+  cover: images/writing/rails-polymorphic.png
