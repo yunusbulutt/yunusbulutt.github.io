@@ -1,0 +1,16 @@
+{{ with site.Data.writing }}
+<section class="writing">
+  <h3 class="section-title">Writing</h3>
+  <div class="post-grid">
+    {{ range sort . "date" "desc" }}
+    <a class="post-card" href="{{ .url }}" target="_blank" rel="noopener">
+      {{ with resources.Get .cover }}{{ with .Fill "800x400 webp Center" }}<img class="post-cover" src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" alt="" loading="lazy">{{ end }}{{ end }}
+      <div class="post-body">
+        <h4>{{ .title }}</h4>
+        <p>{{ (time .date).Format "Jan 2006" }} · {{ .readingTime }} min read · Medium ↗</p>
+      </div>
+    </a>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
