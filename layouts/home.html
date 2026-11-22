@@ -1,6 +1,6 @@
 {{ define "main" }}
 <header>
-  {{ with resources.Get "images/avatar.jpg" }}{{ with .Resize "256x webp" }}<img class="avatar" src="{{ .RelPermalink }}" width="128" height="128" alt="{{ site.Title }}">{{ end }}{{ end }}
+  {{ with resources.Get "images/avatar.jpg" }}{{ with .Resize "384x webp q90 Lanczos" }}<img class="avatar" src="{{ .RelPermalink }}" width="128" height="128" alt="{{ site.Title }}">{{ end }}{{ end }}
   <h1>{{ site.Title }}</h1>
   <h2>
     {{ site.Params.role }} at
