@@ -4,7 +4,7 @@ title = 'Yunus Bulut'
 disableKinds = ['taxonomy', 'term', 'rss']
 
 [params]
-  description = 'Software engineer.'
+  description = 'Software engineer at Simpra who enjoys building clean, reliable backend systems.'
   role = 'Software Engineer'
   company = 'Simpra'
   companyUrl = 'https://simprasuite.com.tr/'
