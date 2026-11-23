@@ -1,7 +1,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <script>try{if(localStorage.getItem('theme')==='light')document.documentElement.dataset.theme='light'}catch{}</script>
-<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }}{{ end }}</title>
+<title>{{ if .IsHome }}{{ site.Title }}{{ else }}{{ .Title }} · {{ site.Title }}{{ end }}</title>
 <meta name="description" content="{{ .Description | default site.Params.description }}">
 <link rel="icon" href="{{ "favicon.ico" | relURL }}" sizes="32x32">
 <link rel="icon" href="{{ "favicon.svg" | relURL }}" type="image/svg+xml">
