@@ -5,7 +5,7 @@ params:
 eyebrow: Kuponda
 description: "Son güncelleme: 18 Kasım 2026"
 footerLinks:
-  - name: Kuponda Destek
+  - name: Kuponda
     url: /kuponda/
   - name: Yunus Bulut
     url: /
