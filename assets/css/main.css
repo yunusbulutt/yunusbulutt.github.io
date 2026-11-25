@@ -200,6 +200,10 @@ p {
   stroke-linejoin: round;
 }
 
+.theme-toggle:focus-visible {
+  color: var(--color-primary);
+}
+
 :root[data-theme="light"] .icon-sun,
 :root:not([data-theme="light"]) .icon-moon {
   display: none;
