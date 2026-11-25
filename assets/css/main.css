@@ -128,6 +128,11 @@ a:hover {
   color: var(--color-primary);
 }
 
+:where(a, button):focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 3px;
+}
+
 p {
   text-wrap: balance;
 }
