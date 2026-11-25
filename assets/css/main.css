@@ -377,6 +377,10 @@ p {
   }
 }
 
+.project-card:focus-visible .project-preview img {
+  transform: translateY(-0.5rem);
+}
+
 .doc-icon {
   width: 4.5rem;
   height: 4.5rem;
@@ -488,6 +492,10 @@ p {
 .post-body p {
   font-size: 0.9375rem;
   color: var(--color-mute);
+}
+
+.post-card:focus-visible .post-cover {
+  transform: scale(1.03);
 }
 
 @media (hover: hover) {
