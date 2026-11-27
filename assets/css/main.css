@@ -508,3 +508,11 @@ p {
     transform: scale(1.03);
   }
 }
+
+@media (prefers-reduced-motion: reduce) {
+  .theme-toggle,
+  .project-preview img,
+  .post-cover {
+    transform: none !important;
+  }
+}
